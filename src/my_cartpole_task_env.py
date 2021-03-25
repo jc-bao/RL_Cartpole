@@ -1,5 +1,6 @@
 from gym import utils
-from openai_ros.robot_envs import cartpole_env # robo env
+# from openai_ros.robot_envs import cartpole_env # robo env
+import cartpole_env # robo env
 from gym.envs.registration import register
 from gym import error, spaces
 import rospy
